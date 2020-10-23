@@ -15,7 +15,7 @@ body{
     margin: 1px auto; 
     outline: 1px solid rgb(236, 234, 213);
     background-color: rgba(255, 255, 255, 0.5);
-    background-image: url("main_theme 2.png");
+    background-image: url("main_theme 2.jpg");
     background-size: 100%;
     background-blend-mode: hard-light;
 }
@@ -36,7 +36,9 @@ h1{
     text-align: center;
     margin: 30px 0px 0px 0px;
     padding: 0;
-    border: 0.5px solid gray;
+    border: 0.5px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    background-color: rgb(230, 230, 157);
 }
 
 h5{
@@ -45,7 +47,9 @@ h5{
     text-align: center;
     margin: 0;
     padding: 0;
-    border: 0.5px solid gray;
+    border: 0.5px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
 
 }
 
@@ -104,10 +108,10 @@ button[type="button"] {
 }
 
 
-
 /* does not  do anything now */
 #b1{
     position: 20% 30% 50% 50%;
+
 }
 
 
@@ -119,4 +123,6 @@ article{
     border: 10px solid rgb(255, 255, 255);
     border-radius: 50px;
     position: relative;
+
+
 }
