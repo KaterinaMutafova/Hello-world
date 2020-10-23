@@ -1,0 +1,115 @@
+body, html{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color: rgb(245, 237, 237);
+}
+  
+#container{
+    border: 1px solid gray;
+    width: 50%;
+    height: 2000px;
+    margin: 1px auto; 
+    outline: 1px solid rgb(236, 234, 213);
+    background-color: rgba(255, 255, 255, 0.5);
+    background-image: url("main_theme 2.png");
+    background-size: 100%;
+    background-blend-mode: hard-light;
+}
+
+/* #box{
+    position: relative;
+    border: 0.5px solid gray;
+    width: 85%;
+    height: 80%;
+    margin: 100px auto; 
+    outline: 1px solid rgb(236, 234, 213);
+    background-color: rgb(245, 237, 237);
+} */
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+    padding: 0;
+    border: 0.5px solid gray;
+}
+
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 0.5px solid gray;
+
+}
+
+li, h2{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    text-align: center;
+    list-style-type: none;
+    margin: 15px 15px 15px 15px;
+    padding: 0;
+    display: block;
+           
+}
+
+h3{
+    margin: 0;
+    padding: 0;
+    display: block;
+    
+}
+
+.bold{
+    text-emphasis-style: bold;
+    margin: 0;
+    padding: 0;
+
+}
+
+ul{
+    margin: 15px 15px 15px 15px;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    display: flex; 
+    flex-wrap: wrap;
+
+    
+}
+
+li{
+    padding-left: -40px;
+    margin: 15px 15px 15px 15px;
+    padding: 0;
+    position: relative;
+}
+
+
+
+button[type="button"] {
+    width: 100%;
+    margin: 15px 15px 15px 15px;
+    background-color: rgb(230, 230, 157);
+    padding: 10px;
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 50px;
+}
+
+
+
+/* does not  do anything now */
+#b1{
+    position: 20% 30% 50% 50%;
+
+
+
+
+}
