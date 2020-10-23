@@ -108,8 +108,15 @@ button[type="button"] {
 /* does not  do anything now */
 #b1{
     position: 20% 30% 50% 50%;
+}
 
 
-
-
+article{
+    width: 80%;
+    margin: 30px;
+    background-color: rgb(230, 230, 157);
+    padding: 10px;
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    position: relative;
 }
