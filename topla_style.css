@@ -124,5 +124,10 @@ article{
     border-radius: 50px;
     position: relative;
 
-
 }
+
+img{
+    border: 10px solid rgb(255, 255, 255);
+    position: relative;
+}
+
